@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+}
+.box {
+	display: 200px;
+	height: 200px;
+	width: 200px;
+}
+.red {
+	background-color: pink;
+}
+.blue {
+	background-color: lightblue;
+}
+.green {
+	background-color: lightgreen;
+}
+.purple {
+	background-color: violet;
+}
+.circle {
+	font-size: 100px;
+	color: white;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
